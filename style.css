@@ -73,25 +73,4 @@ body {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 1440px) {
-  .container {
-    background-color: hsl(0, 0%, 12%);
-    color: hsl(0, 0%, 100%);
-    height: 700px;
-    width: 600px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .profile_container img {
-    width: 120px;
-    margin-bottom: 25px;
-  }
-  .inner_container {
-    width: 550px;
-    margin: 50px auto;
-  }
-}
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
