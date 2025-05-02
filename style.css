@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  height: 625px;
+  width: 400px;
+  text-align: center;
+  border-radius: 0.6rem;
+}
+
+.inner_container {
+  height: 550px;
+  width: 350px;
+  margin: 50px auto;
+}
+.inner_container p {
+  color: gray;
+  font-weight: 700;
+}
+
+.profile_container {
+  margin: 20px;
+  font-weight: 700;
+}
+
+.profile_container img {
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.profile_container p {
+  margin: 10px;
+  color: hsl(75, 94%, 57%);
+}
+.links_container ul {
+  padding: 10px;
+  list-style: none;
+}
+.links_container ul li {
+  background-color: hsl(0, 0%, 20%);
+  margin: 15px;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 0.4rem;
+}
+.links_container a {
+  text-decoration: none;
+  color: white;
+}
+.links_container a:hover {
+  color: hsl(0, 0%, 8%);
+  font-size: 15px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
